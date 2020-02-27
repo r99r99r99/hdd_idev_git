@@ -1,0 +1,210 @@
+@charset "utf-8";
+body {
+  font-family: /* "微软雅黑,"*/ Arial, Helvetica, sans-serif;
+}
+
+/*头部*/
+.mainHeader {
+
+  background: url(/static/images/metro-blue/headerBg.jpg) no-repeat;
+}
+
+/*width的宽度 500px改为600px*/
+.headerIcon {
+  width: 525px;
+  height: 52px;
+  line-height: 52px;
+  float: right;
+  color: #e1e8ee;
+}
+
+.headerLogo {
+  float: left;
+  width: 480px;
+  height: 52px;
+  background: url(/static/images/metro-blue/logo.png) no-repeat;
+}
+
+.headerIcon a {
+  padding-left: 30px;
+  height: 52px;
+  line-height: 52px;
+  margin-right: 10px;
+  font-size: 12px;
+  float: right;
+  color: #e1e8ee;
+  text-decoration: none;
+}
+
+.headerIcon span select {
+  background-color: #164186;
+}
+
+.headerIcon span select {
+  color: #e1e8ee;
+}
+
+.headerIcon span select option {
+  background-color: #164186;
+}
+
+.headerIcon span select option {
+  color: #e1e8ee;
+}
+
+.headerIconLink1 {
+  background: url(/static/images/metro-blue/headerIconMessage.png) no-repeat left center;
+}
+
+/*有消息时*/
+.headerIconLink1No {
+  background: url(/static/images/metro-blue/headerIconMessageNo.png) no-repeat left center;
+}
+
+/*无消息时*/
+.headerIconLink2 {
+  /*background: url(/static/images/metro-blue/headerIconFullScreen.png) no-repeat left center;*/
+  padding-left: 0px;
+}
+
+.headerIconLink3 {
+  background: url(/static/images/metro-blue/headerIconSkin.png) no-repeat left center;
+}
+
+/*foot .btn .pic.nav1 {
+  background: #474c53 url(../images/nav1.png) no-repeat center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ffffff;
+  background: #494e55;
+  border-radius: 50%;
+  box-shadow: 10px 2px 10px rgba(0,0,0,0.2);
+}*/
+
+.headerIconLink4 {
+  background: url(/static/images/metro-blue/headerIconFavorites.png) no-repeat left;
+}
+
+.headerIconLink5 {
+  background: url(/static/images/metro-blue/headerIconExit.png) no-repeat left;
+}
+
+.headerIconLink6 {
+  background: url(/static/images/metro-blue/headerIconHelp.png) no-repeat left;
+}
+
+.headerIconLink7 {
+  background: url(/static/images/metro-blue/headerIconUser.png) no-repeat left;
+}
+
+/*系统管理员字体颜色*/
+.headerIconFontColor {
+  color: #e1e8ee;
+  font-size: 12px;
+}
+
+.headerIconLink8 {
+  background: url(/static/images/metro-blue/headerIconChina.png) no-repeat left;
+}
+
+.headerIconLink9 {
+  background: url(/static/images/metro-blue/headerIconEnglish.png) no-repeat left;
+}
+
+.headerIconLink10 {
+  background: url(/static/images/metro-blue/headerIconEspañol.png) no-repeat left;
+}
+
+.headerIconSelect {
+  width: 55px;
+  text-align: center;
+  background-color: transparent;
+  color: #e1e8ee;
+  border: 0px;
+  margin-top: -5px;
+}
+
+/*主页CSS*/
+.indexBg {
+  background: url(/static/images/metro-blue/indexBg.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.boxBg {
+  background-color: rgba(204, 204, 204, 0.2);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.el-card__body {
+  padding: 0px;
+}
+
+.boxTitleBg {
+  padding: 0px 0px;
+  height: 40px;
+  line-height: 40px;
+  /*background-color:#409EFF;
+    background-color:rgba(64,158,255,0.5);*/
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.static-ship-font-red {
+  font-size: 72px;
+  color: #01f6ff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/*在港船舶搜次*/
+.static-ship-font-orange {
+  font-size: 72px;
+  color: #fffc01;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/*作业船舶搜次*/
+.static-ship-box {
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px 0;
+  height: 20px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  font-size: 15px;
+  text-align: left;
+}
+
+/*重点船实时动态表格*/
+.shipTable {
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box-card {
+  width: '100%';
+  border-width: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wrap {
+  height: calc(100% - 100px);
+  overflow: hidden;
+  position: absolute;
+  top: 30;
+  left: 100;
+  width: 100%
+}
+
+.menuvisit {
+  background-color: #66CCFF;
+  color: #eff7ff;
+}

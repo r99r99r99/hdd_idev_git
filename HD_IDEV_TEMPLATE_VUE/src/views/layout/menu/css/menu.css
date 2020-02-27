@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul,ol{list-style:none;}
+/*清除浮动*/
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-table;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+.ma{margin-left:auto;margin-right:auto;}
+.w980{width:980px;}
+.mt10{margin-top:10px;}
+
+.product_sortBg{ background-color:#ededed;}
+/*.fa{ margin-right:5px;}*/
+
+/*缩进按钮*/
+.menuSvg{ height:30px; background-color:#ededed;border-bottom:solid 1px #bbb; text-align:center; color:#f0f0f0; padding-top:5px;}
+.hamburger[data-v-4e6f274c]{ width:16px !important; height:16px !important; fill:#bbbbbb;}
+.scroll-container .scroll-wrapper{/*background-color:#666666;*/}
+
+/*菜单的高度 height:calc(100vh + 70px)  70 对应ScrllBar\index.vue 32 行的判断尺寸*/
+.product_sort{/*border-bottom:solid 1px #3299fd;border-right:solid 1px #3299fd;*/height:calc(10vh);position:relative; z-index:999;}
+.product_sort .hd{line-height:40px;text-indent:20px;font-size:15px;font-weight:bold;color:#fff;}
+.product_sort .bd{padding-bottom:10px;}
+.product_sort .bd .item{border-bottom:solid 1px #bbb;height:50px;position:relative;}
+.product_sort .bd .item .title{text-indent:13px;height:50px;overflow:hidden;line-height:50px;font-size:15px;font-weight:bold;;}
+.product_sort .bd .item .title a{position:relative;}
+.product_sort .bd .item .title .fa{font-size:16px; margin-right:5px; width: 20px!important; height: 20px !important;  display: block!important; float: left;margin-top: 15px;}
+
+/*选择和不被选择时的背景色*/
+.product_sortSelected{ background-color:#409EFF;}
+.product_sortUnselected{background-color:#666666;}
+
+/*二级弹出菜单结束*/
+.product_sortTwo{width:820px; min-height:30px;max-height:400px;overflow-y: auto; position:absolute;left:142px; padding-top:10px; padding-bottom:5px;  border:1px solid #b6b6b6; color:#494949; background:#FFF;}
+.product_sortTwoDiv{ width:770px; float:left; margin-left:25px; margin-bottom:5px; padding-bottom:0px;}
+.product_sortTwoBottomLine{border:0px;padding-bottom:0px;}
+.product_sortSpan{ color:#0555a6; font-weight:bold; display:block; float:left; width:100%; height:30px; line-height:30px; margin-right:10px; border-bottom:1px solid #ccc;}
+.product_sortSpan a{display: inline-block;}
+.product_sortTwoMenu{width:100%; float:left; margin-top:5px;}
+.product_sortTwoMenu > a{min-width:50px; width:auto !important; height:30px; line-height:30px; float:left; color:#646464; display:block; margin-right:10px;}
+.product_sortTwoMenu a:hover{color: #888;}
+.product_sortTwo678{width:850px; min-height:30px; height:auto !important; position:absolute; left:142px; padding-top:10px; padding-bottom:10px;  border:1px solid #b6b6b6; color:#494949; background:#FFF; bottom:0px;}
+
+.product_sortTwo9{width:850px; min-height:30px; height:auto !important; position:absolute; left:142px; padding-top:10px; padding-bottom:10px;  border:1px solid #b6b6b6; color:#494949; background:#FFF; bottom:0px;}
+
+/*二级弹出菜单结束*/
+
+.product_sort .bd .item .list{padding-left:5px;height:30px;line-height:30px;overflow:hidden;}
+.product_sort .bd .item .list a{color:#333;}
+.product_sort .bd .item .list a:hover{text-decoration:underline;}
+.product_sort .bd .item .arrow{font-size:12px; color:#333;position:absolute;right:10px;top:18px;}
+.product_sort .bd .menuvisit .arrow{font-size:12px; color:white;position:absolute;right:10px;top:18px;}
+.product_sort .bd .item .line{position:absolute;right:-2px;top:0px;width:2px;height:55px;background-color:#fff;z-index:999;display:none;}
+.product_sort .bd .item .subitem{display:none;}
+.product_sort .bd .layer .line{display:block;}
+.product_sort .bd .layer .arrow{display:block;}
+.product_sort .bd .layer .subitem{
+  width:731px;background:#fff;border:solid 1px #dbd4d5;border-left:none;position:absolute;top:-1px;
+  z-index:999;min-height:55px;height:auto!important;height:55px;padding:10px 20px; display:block;
+}
+
+

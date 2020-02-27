@@ -1,0 +1,345 @@
+.body-metro-green { //此class直接在body上
+  $--color-primary: #6FC057; //换主题色
+  $--font-path: '~element-ui/lib/theme-chalk/fonts';
+  @import "~element-ui/packages/theme-chalk/src/index";
+  @import "../hdcom";
+
+  .el-button { /*弹出窗口按钮大小*/
+    margin-bottom: 0px !important;
+    padding: 6px 15px !important;
+    line-height: 15px !important;
+  }
+
+  /*二级标题色*/
+  .hd-title {
+    border-bottom: 1px solid #d8dce5;
+    margin-bottom: 10px;
+    height: 22px;
+    color: #6FC057 !important;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  /*弹出页面标题下划线颜色*/
+  .el-dialog__header .el-dialog__title {
+    border-bottom: 3px solid #6FC057 !important;
+  }
+
+  /*弹出页面标题颜色*/
+  .el-line {
+    color: #6FC057 !important;
+  }
+
+  /*操作按钮*/
+  .hdgrid {
+    .fa-cogs {
+      color: #6FC057 !important;
+    }
+
+    .el-table__body tr.current-row > td { //选中高亮
+      background: #6FC057 !important;
+      color: white;
+
+      .hdBtn {
+        color: white !important;
+      }
+    }
+  }
+
+
+  /*横线TAB颜色*/
+  .el-tabs__active-bar {
+    background-color: #6FC057 !important;
+  }
+
+  /*主标签颜色*/
+  .tags-view-container .tags-view-item.active {
+    background-color: #6FC057 !important;
+    border-color: #6FC057 !important;
+  }
+
+  .el-menu--horizontal {
+    border-bottom: 2px solid #6FC057;
+  }
+
+  /*右侧操作小图标颜色*/
+  .el-table .cell .el-tooltip {
+    color: #6FC057;
+  }
+
+  /*头部*/
+  .mainHeader {
+    background: url(~static/images/metro-green/headerBg.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  /*width的宽度 500px改为600px*/
+  .headerIcon {
+    height: 52px;
+    line-height: 52px;
+    float: right;
+    color: #e1e8ee;
+  }
+
+  .headerLogo {
+    background: url(~static/images/metro-green/logo.png) no-repeat;
+  }
+
+  .headerIcon a {
+    padding-left: 30px;
+    height: 52px;
+    line-height: 52px;
+    margin-right: 5px;
+    font-size: 12px;
+    float: right;
+    color: #e1e8ee;
+    text-decoration: none;
+  }
+
+  .headerIcon span select {
+    background-color: #164186;
+  }
+
+  .headerIcon span select {
+    color: #e1e8ee;
+  }
+
+  .headerIcon span select option {
+    background-color: #164186;
+  }
+
+  .headerIcon span select option {
+    color: #e1e8ee;
+  }
+
+  .headerIconLink2 {
+    padding-left: 0px !important;
+  }
+
+  #app .screenfull-svg {
+    fill: #e1e8ee;
+    width: 31px;
+    height: 31px;
+    margin-top: 2px;
+    padding: 6px;
+    background: url(~static/images/metro-green/headerIconBg.png) no-repeat;
+  }
+
+  .headerIconLink3 {
+    background: url(~static/images/metro-green/headerIconSkin.png) no-repeat left center;
+  }
+
+  .headerIconLink5 {
+    background: url(~static/images/metro-green/headerIconExit.png) no-repeat left center;
+    padding-left: 40px;
+  }
+
+  .headerIconLink7 {
+    background: url(~static/images/metro-green/headerIconUser.png) no-repeat left center;
+  }
+
+  .zhjack {
+    background: url(~static/images/metro-green/china.png) no-repeat left center;
+  }
+
+  .enjack {
+    background: url(~static/images/metro-green/usa.png) no-repeat left center;
+  }
+
+  .mike {
+    background: url(~static/images/metro-green/mike.png) no-repeat left center;
+  }
+
+  /*系统管理员字体颜色*/
+  .headerIconFontColor {
+    color: #e1e8ee;
+    font-size: 12px;
+  }
+
+  .headerIconSelect {
+    width: 55px;
+    text-align: center;
+    background-color: transparent;
+    color: #e1e8ee;
+    border: 0px;
+    margin-top: -5px;
+  }
+
+  /*主页CSS*/
+  .indexBg {
+    background: url(~static/images/metro-green/indexBg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .boxBg { /*块背景*/
+    background-color: rgba(204, 204, 204, 0.2);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .el-card__body {
+    padding: 0px;
+  }
+
+  .boxTitleBg { /*块标题*/
+    padding: 0px 0px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #6FC057;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 15px;
+    background: url(~static/images/metro-green/indexIcon.png) 3px center no-repeat;
+  }
+
+  /*船表格和滚动*/
+  .shipTable {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .tableTitle {
+    border-bottom: 1px solid #d8dce5;
+    margin-bottom: 10px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .box-card {
+    width: '100%';
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .wrap {
+    height: calc(100% - 100px);
+    overflow: hidden;
+    position: absolute;
+    top: 30;
+    left: 100;
+    width: 100%
+  }
+
+  /*三个窗口对齐问题*/
+  .el-footer {
+    padding: 0px !important;
+  }
+
+  .hd-title-right20 {
+    margin-right: 20px;
+  }
+
+  .div-bn {
+    float: right;
+    display: flex;
+  }
+
+  .hd-bn {
+    background-color: transparent;
+    border: 0px;
+    color: #494949;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  .hd-bn span {
+    margin-left: 10px;
+    margin-top: -5px;
+    display: flex;
+  }
+
+  .div-bn {
+    .bn-add.el-button--primary {
+      background: url(~static/images/metro-green/bnAdd.png) 3px center no-repeat;
+      color: #494949;
+    }
+  }
+
+  .div-bn {
+    .bn-del.el-button--primary {
+      background: url(~static/images/metro-green/bnDelect.png) 3px center no-repeat;
+      color: #494949;
+    }
+  }
+
+  .div-bn {
+    .bn-save.el-button--primary {
+      background: url(~static/images/metro-green/bnSave.png) 3px center no-repeat;
+      color: #494949;
+    }
+  }
+
+  /*左侧菜单访问*/
+  .menuvisit {
+    background-color: #6FC057;
+    color: #eff7ff;
+  }
+
+  .product_sort .bd .layer .subitem .inner .tit {
+    font-size: 14px;
+    text-align: left;
+    border-top: 1px dashed #409EFF;
+    padding: 0px;
+  }
+
+  .product_sort .bd .layer .subitem .inner .tit1 {
+    border-top: none;
+  }
+
+  .product_sort .bd .layer .subitem .inner .tit .name {
+    font-size: 15px;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    border-bottom: 1px dashed #ccc;
+    color: #6FC057;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 30px;
+    // background: url(/static/images/menuTwoIcon.png) left center no-repeat;
+    margin-bottom: 10px;
+  }
+
+  .product_sort .bd .layer .subitem .inner ul {
+    overflow: hidden;
+    zoom: 1;
+    display: block;
+    float: left;
+    padding-left: 30px;
+    margin-right: 10px;
+    width: 100%;
+  }
+
+  .product_sort .bd .layer .subitem .inner ul li {
+    float: left;
+    padding: 0px 0px 0px 0px;
+    height: 30px;
+    line-height: 30px;
+    min-width: 150px;
+  }
+
+  .product_sort .bd .layer .subitem .inner ul li a {
+    font-size: 14px;
+    color: #222;
+    display: block;
+    padding: 0px 5px 0px 20px;
+    background: url(/static/images/metro-green/icon.png) left center no-repeat;
+  }
+
+  .product_sort .bd .layer .subitem .inner ul li a:hover {
+    color: #6FC057;
+    text-decoration: none;
+  }
+
+  .visit {
+    background-color: #4AB7BD;
+  }
+}
+
