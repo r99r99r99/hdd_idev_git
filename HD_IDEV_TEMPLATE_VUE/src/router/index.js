@@ -40,7 +40,6 @@ export function genMenu() {
 
       hdRouter.push({path: '*', redirect: '/404', hidden: true, menuId: 'all'})
       hdMenu = orgMeus.children;
-      console.info(routChildPathLev1)
       resolve({hdMenu, hdRouter})
     })
   })

@@ -8,7 +8,10 @@
 </template>
 
 <script>
-  import HdLayout from 'idevvuejs/HdLayout'
+  //这里引用封装好的系统布局
+  //import HdLayout from 'idevvuejs/HdLayout'
+  //这里引用源代码的系统布局
+  import HdLayout from './HdLayout'
   export default {
     name: 'layout',
     components: {HdLayout},
