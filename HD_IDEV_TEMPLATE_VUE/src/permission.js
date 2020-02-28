@@ -6,7 +6,7 @@ import { getToken, removeToken, setToken } from '@/utils/auth' // 验权
 import { Message } from 'element-ui'
 
 const whiteList = ['/login', '/authredirect', '/regist'] // 不重定向白名单
-
+//过滤器，当用户没有登录的时候跳转到登录页面  note by xlj
 router.beforeEach((to, from, next) => {
   if (to.query && to.query.hdTokenId) {
     // 允许url中带?hdTokenId=id_md5password,实现直接登录
