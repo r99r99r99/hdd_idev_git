@@ -1,5 +1,5 @@
 <template>
-  <el-menu class="navbar" mode="horizontal">
+  <el-menu class="navbar" style="padding:0" mode="horizontal">
     <tags-view style="width: calc(100%);height: 100%;"></tags-view>
   </el-menu>
 </template>

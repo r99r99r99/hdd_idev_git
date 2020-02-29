@@ -19,6 +19,21 @@ import validateInput from './utils/validateInput'
 // idevvue中使用了echarts,为了让idevvue不特别庞大,(echarts1.5M)这样传入
 import echarts from 'echarts'
 
+import $ from 'jquery'
+/*import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'*/
+/*import 'bootstrap-table/dist/bootstrap-table.css'
+import 'bootstrap-table/dist/bootstrap-table.js'
+import 'bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js'*/
+import 'static/bootstrap/dist/css/bootstrap.css'
+import 'static/bootstrap/dist/js/bootstrap.js'
+import 'static/bootstrap-table/dist/bootstrap-table.css'
+import 'static/bootstrap-table/dist/bootstrap-table.js'
+import 'static/bootstrap-table/src/extensions/export/bootstrap-table-export.js'
+import 'static/bootstrap-table/src/extensions/export/tableExport.min.js'
+import 'static/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js'
+
+
 window.echarts = echarts
 if (window.location.href.indexOf('file:') === 0) {
   // 非服务器模式,file模式
