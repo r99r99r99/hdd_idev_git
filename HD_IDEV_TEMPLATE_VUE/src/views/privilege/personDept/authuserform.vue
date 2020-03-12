@@ -77,7 +77,7 @@
 
 <script>
   import orgncascader from './orgncascader'
-  // import ExtendForm from "../../../hdcom/ExtendForm";
+  import ExtendForm from "../../../hdcom/ExtendForm";
 
   export default {
     name: 'authuserform',

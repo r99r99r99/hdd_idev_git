@@ -88,12 +88,12 @@
 <script>
 import orgnselect from './orgnselect'
 import orgTree from '../orgDept/orgTree'
-// import HdFormBtn from '../../hdcom/HdFormBtn.vue'
+import HdFormBtn from '../../../hdcom/HdFormBtn.vue'
 
 export default {
   name: 'authorgnform',
   components: {
-    // HdFormBtn,
+    HdFormBtn,
     orgnselect, orgTree
   },
   data: function() {
