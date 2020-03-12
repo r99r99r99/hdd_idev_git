@@ -388,7 +388,7 @@
                 <version>2.7.0</version>
                 <executions>
                     <execution>
-                        <id>weave</id>
+                        <id>weave</id> 
                         <phase>process-classes</phase>
                         <goals>
                             <goal>weave</goal>

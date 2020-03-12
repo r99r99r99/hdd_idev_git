@@ -45,7 +45,7 @@ public class ShiroConfiguration {
 	@Bean(name = "shiroRealm")
 	@DependsOn("lifecycleBeanPostProcessor")
     public HdRealm shiroRealm() {
-		HdRealm realm = new HdRealm();
+		HdRealm realm = new HdRealm(); 
 		realm.setCredentialsMatcher(hashedCredentialsMatcher());
         return realm;
     }
