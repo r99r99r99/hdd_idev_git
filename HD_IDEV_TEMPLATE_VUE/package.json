@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "idevvue": "1.5.1",
-    "axios": "^0.17.1",
+    "axios": "^0.18.1",
     "babel-polyfill": "^6.26.0",
     "cesium": "^1.57",
     "clipboard": "1.7.1",
