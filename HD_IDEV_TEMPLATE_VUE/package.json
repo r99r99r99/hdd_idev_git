@@ -16,7 +16,7 @@
     "babel-polyfill": "^6.26.0",
     "cesium": "^1.57",
     "clipboard": "1.7.1",
-    "codemirror": "5.31.0",
+    "codemirror": "5.58.2",
     "connect": "3.6.6",
     "dropzone": "5.2.0",
     "echarts": "3.8.5",
